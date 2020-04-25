@@ -73,3 +73,17 @@ android_app_import {
 	privileged: true,
 	soc_specific: true,
 }
+
+dex_import {
+	name: "qcnvitems",
+	owner: "samsung",
+	jars: ["proprietary/vendor/framework/qcnvitems.jar"],
+	soc_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "samsung",
+	jars: ["proprietary/vendor/framework/qcrilhook.jar"],
+	soc_specific: true,
+}
