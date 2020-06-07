@@ -63,6 +63,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "shutdownlistener",
+	owner: "samsung",
+	apk: "proprietary/app/shutdownlistener/shutdownlistener.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "samsung",
 	apk: "proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
@@ -70,7 +81,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
 	soc_specific: true,
 }
 
