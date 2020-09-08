@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
-    vendor/samsung/ks01ltexx/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/samsung/ks01ltexx/proprietary/vendor/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_420sp.yuv \
     vendor/samsung/ks01ltexx/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -225,7 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D13QL_libchromatix_s5k3l2xx_vt_hd.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/D13QS_libchromatix_imx135_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/D13QS_libchromatix_imx135_vt.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/D13QS_libchromatix_imx135_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D13QS_libchromatix_imx135_vt_hd.so \
-    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
@@ -322,6 +320,4 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
-    libmm-abl \
-    libtime_genoff \
-    TimeService
+    libmm-abl

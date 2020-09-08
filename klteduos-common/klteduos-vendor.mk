@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klteduos-common/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/samsung/klteduos-common/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
     vendor/samsung/klteduos-common/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/samsung/klteduos-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/samsung/klteduos-common/proprietary/vendor/cameradata/C16QL_Isp0_s5k2p2xx.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/C16QL_Isp0_s5k2p2xx.bin \
     vendor/samsung/klteduos-common/proprietary/vendor/cameradata/C16QL_Isp1_s5k2p2xx.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/C16QL_Isp1_s5k2p2xx.bin \
     vendor/samsung/klteduos-common/proprietary/vendor/cameradata/F16QL_Isp0_s5k2p2xx.bin:$(TARGET_COPY_OUT_VENDOR)/cameradata/F16QL_Isp0_s5k2p2xx.bin \
@@ -186,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/F16QS_libchromatix_imx240_common_res1.so:$(TARGET_COPY_OUT_VENDOR)/lib/F16QS_libchromatix_imx240_common_res1.so \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/F16QS_libchromatix_imx240_common_res2.so:$(TARGET_COPY_OUT_VENDOR)/lib/F16QS_libchromatix_imx240_common_res2.so \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/F16QS_libchromatix_imx240_common_res3.so:$(TARGET_COPY_OUT_VENDOR)/lib/F16QS_libchromatix_imx240_common_res3.so \
-    vendor/samsung/klteduos-common/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camcorder.so \
@@ -254,7 +252,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/samsung/klteduos-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    TimeService
