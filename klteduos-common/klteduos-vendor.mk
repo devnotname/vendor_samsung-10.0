@@ -52,8 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klteduos-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/samsung/klteduos-common/proprietary/vendor/firmware/audience-es705-fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/audience-es705-fw.bin \
     vendor/samsung/klteduos-common/proprietary/vendor/firmware/audience-es705-vs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/audience-es705-vs.bin \
-    vendor/samsung/klteduos-common/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/klteduos-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/klteduos-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/klteduos-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/klteduos-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin \
