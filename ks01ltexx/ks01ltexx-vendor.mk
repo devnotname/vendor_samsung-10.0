@@ -214,7 +214,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_pre_firmware.ncd \
-    vendor/samsung/ks01ltexx/proprietary/vendor/firmware/bcm4335B0_V0343.0358.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335B0_V0343.0358.hcd \
+    vendor/samsung/ks01ltexx/proprietary/vendor/firmware/bcm4335B0_002.001.006.0191.0201_ORC.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/bcm4335_prepatch.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335_prepatch.hcd \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/C13QL_libchromatix_s5k3l2xx_vt.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C13QL_libchromatix_s5k3l2xx_vt_hd.so \
